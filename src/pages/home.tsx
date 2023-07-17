@@ -1,11 +1,12 @@
-import vitelogo from '/337712.jpg';
+// import vitelogo from '/337712.jpg';
 
 function Home() {
   return (
-    <div>
-      <h1>Welcome</h1>
-      <img src={vitelogo} className="image" alt="logo" />
-    </div>
+    <img
+      src="https://cdn.discordapp.com/attachments/561250228527824897/1126078362327207996/image.png"
+      className="image"
+      alt="logo"
+    />
   );
 }
 
